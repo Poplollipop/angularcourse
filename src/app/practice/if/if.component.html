@@ -1,0 +1,53 @@
+<!-- <div>
+<button style="margin-right: 20px;" (click)="searchall()">ALL</button>
+<button style="margin-right: 20px;" (click)="searchf()">F</button>
+<button style="margin-right: 20px;" (click)="searchm()">M</button>
+</div>
+
+@for (data of arrayData; track $index) {
+  <div class="border">
+    <h4 class="text-align">{{ data.name }}</h4>
+    <h4 class="text-align">{{ data.age }}</h4>
+    <h4 class="text-align">{{ data.sex }}</h4>
+  </div>
+  } -->
+
+<button (click)="searchall()">ALL</button>
+<button (click)="searchf()">F</button>
+<button (click)="searchm()">M</button>
+<div *ngFor="let data of filteredData">
+  <div style="margin: 20px; width: 20%; border: 2px grey solid;">
+  <h6>{{ data.name }}</h6>
+  <h6>{{ data.age }}</h6>
+  <h6>{{ data.sex }}</h6>
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- 會暴露在html-console中，不建議 -->
+@if(true){
+<h4>123</h4>
+}
+
+
+@if (false) {
+<h4>456</h4>
+}
+
+<h3 style="display: none;">123</h3>
+<!-- 隱藏是直接將你的這段畫面的內容直接移除而css設置只是將其讓使
+用者無法查看但是還是會顯示在底層中 -->
+
+@if (username == 'A' || username =='B') {
+<h4>A</h4>
+
+}@else if (username =='B') {
+<h3>C</h3>
+}@else() {
+<h3>B</h3>
+}

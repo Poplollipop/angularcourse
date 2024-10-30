@@ -1,0 +1,14 @@
+<div class="container">
+  <button class="float-end col-md-3 mt-2" (click)="resetlevel()">Resetlevel</button><br><br>
+  <h5 style="color: red;" class="text-center">{{ title }}</h5>
+  <h5 class="text-start">Level:{{ level }}</h5>
+  <div class="btn1">
+  <button class="col-md-5 m-3" (click)="levelup()">Levelup</button>
+  <button class="col-md-5 m-3" (click)="leveldown()">Leveldown</button>
+  </div>
+  <div class="explain">註解：角色初始等級為1，初始攻擊/防禦為10，每提升一級攻擊+3 防禦+2，降級則-3跟2</div>
+  <h5>Attack:{{ attack }}</h5>
+  <h5>Defence:{{ defence }}</h5>
+  Input levels:<input class="col-md-8 m-3" [placeholder]="placeholder" [(ngModel)]="inputData" type="text"><br>
+  <div class="btn2"><button class="col-md-11 m-3" (click)="setlevel()">Setlevel</button></div><br>
+  </div>

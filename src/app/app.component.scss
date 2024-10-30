@@ -1,0 +1,267 @@
+// .img1{
+//   width: 200px;
+//   height: 200px;
+//   margin-bottom: 36px;
+//   margin-right: 24px;
+// }
+
+// .img2{
+//   width: 300px;
+//   height: 200px;
+//   margin-bottom: 36px;
+// }
+
+// .text{
+//  background-color: aqua;
+//  height: 100px;
+//  width: 524px;
+//  margin-bottom: 36px;
+// }
+
+// .input1{
+//   height: 20px;
+//   width: 386px;
+//   margin-right: 18px;
+// }
+
+// .botton{
+//   height: 20px;
+//   width: 120px;
+// }
+
+// .container {
+//   display: flex;
+//   align-items: center;
+
+//   .box1 {
+//     background-color: blue;
+//     width: 70px;
+//     height: 80px;
+//     color: white;
+//   }
+
+//   .box2 {
+//     background-color: greenyellow;
+//     width: 70px;
+//     height: 25px;
+//     align-self: flex-end;
+//   }
+
+//   .box3 {
+//     background-color: red;
+//     width: 70px;
+//     height: 25px;
+
+//     margin: 10px;
+//   }
+
+//   .box4 {
+//     background-color: green;
+//     width: 70px;
+//     height: 25px;
+//     align-self: baseline;
+
+//   }
+
+//   .box5 {
+//     background-color: yellow;
+//     width: 70px;
+//     height: 80px;
+//   }
+// }
+
+// .container2 {
+//   flex-direction: row-reverse;
+//   justify-content:flex-end;
+//   display: flex;
+
+// .box1 {
+//   background-color: blue;
+//   width: 70px;
+//   height: 80px;
+//   color: white;
+// }
+
+// .box2 {
+//   background-color: greenyellow;
+//   width: 70px;
+//   height: 25px;
+//   align-self: flex-end;
+// }
+
+// .box3 {
+//   background-color: red;
+//   width: 70px;
+//   height: 25px;
+
+//   margin: 10px;
+// }
+
+// .box4 {
+//   background-color: green;
+//   width: 70px;
+//   height: 25px;
+//   align-self: baseline;
+
+// }
+
+// .box5 {
+//   background-color: yellow;
+//   width: 70px;
+//   height: 80px;
+// }
+// }
+
+
+
+
+// .box1 {
+//   background-color: blue;
+//   width: 100px;
+//   height: 80px;
+//   color: white;
+//   &:active{
+//     background-color: black;
+//   }
+//   &:hover{
+//     background-color: gray;
+//   }
+// }
+
+// .box2 {
+//   background-color: greenyellow;
+//   width: 100px;
+//   height: 30px;;
+//   &:active{
+//     background-color: black;
+//   }
+//   &:hover{
+//     background-color: gray;
+//   }
+// }
+
+// .box3 {
+//   background-color: red;
+//   width: 100px;
+//   height: 30px;
+//   margin: 10px;
+//   &:active{
+//     background-color: black;
+//   }
+//   &:hover{
+//     background-color: gray;
+//   }
+// }
+
+// .box4 {
+//   background-color: green;
+//   width: 100px;
+//   height: 30px;
+//   &:active{
+//     background-color: black;
+//   }
+//   &:hover{
+//     background-color: gray;
+//   }
+// }
+
+// .box5 {
+//   background-color: yellow;
+//   width: 100px;
+//   height: 80px;
+//   &:active{
+//     background-color: black;
+//   }
+//   &:hover{
+//     background-color: gray;
+//   }
+// }
+
+
+// .ground{
+//   background-color: pink;
+//   width: 250vw;
+//   height: 250vh;
+// }
+
+// .gif {
+//   background-image: url("https://cdn2.ettoday.net/images/1859/1859303.gif");
+//   background-repeat: no-repeat;
+//   background-color: white;
+//   width: 250px;
+//   height: 250px;
+//   position: fixed;
+//   top: 20px;
+//   right: 50px;
+// }
+
+// .back {
+//   background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-powder-smoke-colorful-background-image_2164096.jpg");
+//   background-repeat: no-repeat;
+//   background-color: red;
+//   width: 600px;
+//   height: 600px;
+// }
+
+// .component1{
+//   background-color: blue;
+//   color: white;
+//   width: 200px;
+//   height: auto;
+// }
+
+// .h1{
+//   background-color: red;
+// }
+
+// .h3{
+//   background-color: blue;
+//   color: white;
+// }
+
+// .img1{
+// border: 2px solid red;
+// }
+
+// .btn1{
+//   text-align: center;
+//   width: 30vw;
+// }
+
+// .explain{
+//   color: red;
+// }
+
+// .btn2{
+//   text-align: center;
+// }
+
+// .levelinput{
+//   width: 300px;
+// }
+
+// .container{
+// border: 3px solid grey;
+// width: 35%;
+// height: 70vh;
+// margin-top: 50px;
+// }
+
+// .active{
+//   color: red;
+// }
+
+.title {
+  color: white;
+  background-color: pink;
+  height: 20vh;
+  font-size: x-large;
+  position: relative;
+  .link {
+    font-size: medium;
+    display: inline;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+  }
+}

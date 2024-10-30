@@ -1,0 +1,37 @@
+<div class="practice">陣列抓取資料練習</div>
+@for (link of arrayData4; track link.name){
+  <a class="m-3" routerLink={{link.path}} routerLinkActive="active">{{link.name}}</a>
+}
+
+<div class="border">
+@for (data of arrayData3; track data.lev) {
+  <div class="data-border">
+  <h4 class="text-align">{{ data.username }}</h4>
+  Intevory:
+  @for (props of data.props; track props.amount) {
+    <br>{{ props.propsName }}
+    Amount:{{ props.amount }}
+  }
+</div>
+}
+</div>
+
+
+
+<br><br><br><br><br>
+<div class="mt-4">兩個for迴圈抓取陣列資料測試</div>
+@for (data of arrayData; track data.id) {
+  @for (user of data.userData; track user.userID) {
+  username:{{ data.name }}
+  userage:{{ data.age }},
+  userID: {{user.userID}}
+  }
+}
+
+
+<div class="mt-4">一個陣列顯示於HTML上測試</div>
+@for (data of arrayData2; track $index) {
+  {{data}}
+}
+
+<router-outlet></router-outlet>
