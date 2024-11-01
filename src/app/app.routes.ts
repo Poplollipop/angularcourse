@@ -9,6 +9,7 @@ import { CssComponent } from './practice/css/css.component';
 import { ArrayComponent } from './practice/array/array.component';
 import { IfComponent } from './practice/if/if.component';
 import { ApiComponent } from './practice/api/api.component';
+import { MatComponent } from './practice/mat/mat.component';
 
 
 
@@ -18,6 +19,7 @@ export const routes: Routes = [
     path: 'practice',
     component: PracticeComponent,
     children: [
+      { path: 'mat', component: MatComponent },
       { path: 'xijie', component: XijieComponent },
       { path: 'api', component: ApiComponent },
       { path: 'css', component: CssComponent },
