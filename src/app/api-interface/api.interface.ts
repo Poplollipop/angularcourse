@@ -1,3 +1,4 @@
+
 export interface Person {
   name: string;
   age: number;
@@ -14,6 +15,26 @@ export interface TestInterface {
   getName(): string;
 }
 
+
+
+export interface ObjectResult {
+  statusCode: number;
+  data: ResultData;
+  message: string;
+  success: boolean;
+}
+
+export interface ResultData {
+  page: number,
+  limit: number,
+  totalPages: number,
+  previousPage: boolean,
+  nextPage: boolean,
+  totalItems: number,
+  currentPageItems: number,
+  data: any[];
+}
+
 export interface ProductData {
   category: string,
   price: number,
@@ -22,3 +43,5 @@ export interface ProductData {
   title: string,
   id: number
 }
+
+

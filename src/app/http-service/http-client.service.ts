@@ -1,5 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
+import { ObjectResult } from "../api-interface/api.interface";
 
 @Injectable({
     providedIn: 'root'
@@ -10,7 +11,7 @@ export class HttpClientService {
     }
     // 讀取
     getApi(url: string) {
-        return this.http.get(url);
+        return this.http.get<ObjectResult>(url);
     }
 
     // 新增

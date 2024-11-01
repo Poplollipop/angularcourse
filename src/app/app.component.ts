@@ -27,7 +27,7 @@ export class AppComponent implements TestInterface {
   data!:Person;
 
   ngOnInit(): void {
-    this.data.name;
+    // this.data.name;
     //   // let date = new Date();
     //   // console.log(date);
     //   let arrayData: any[] = [];
